@@ -207,7 +207,7 @@
            class="about-pulse"/>
 
   <!-- Character -->
-  <image x="735" y="95"
+  <image x="735" y="50"
          width="435" height="420"
          preserveAspectRatio="xMidYMid meet"
          href="__POINTING_IMAGE__"
