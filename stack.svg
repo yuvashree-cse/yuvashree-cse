@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="620"
+     viewBox="0 0 1200 620"
+     role="img"
+     aria-labelledby="stack-title stack-desc">
+
+  <title id="stack-title">Yuvashree's Technology Stack</title>
+  <desc id="stack-desc">
+    Programming languages, web development, AI and database technologies.
+  </desc>
+
+  <defs>
+    <linearGradient id="stack-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080b16"/>
+      <stop offset="55%" stop-color="#11152a"/>
+      <stop offset="100%" stop-color="#1b1030"/>
+    </linearGradient>
+
+    <linearGradient id="stack-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="stack-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".085"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".025"/>
+    </linearGradient>
+
+    <radialGradient id="stack-glow">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="stack-grid" width="32" height="32"
+             patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none"
+            stroke="#a78bfa" stroke-opacity=".075"/>
+    </pattern>
+
+    <filter id="stack-blur">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+
+    <style>
+      @font-face {
+        font-family: "Space Grotesk";
+        src: url("data:font/woff2;base64,__SPACE_REGULAR__") format("woff2");
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: "Space Grotesk";
+        src: url("data:font/woff2;base64,__SPACE_BOLD__") format("woff2");
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("data:font/woff2;base64,__MONO_REGULAR__") format("woff2");
+        font-weight: 400;
+      }
+
+      .stack-heading {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        fill: #f1f2ff;
+      }
+
+      .stack-category {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        fill: #e9eaff;
+      }
+
+      .stack-label {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 15px;
+        fill: #d7dcf5;
+      }
+
+      .stack-small {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        fill: #9da8cd;
+        letter-spacing: 1px;
+      }
+
+      .stack-chip {
+        fill: #a78bfa;
+        fill-opacity: .09;
+        stroke: #a78bfa;
+        stroke-opacity: .4;
+        stroke-width: 1;
+      }
+
+      .stack-card {
+        fill: url(#stack-card);
+        stroke: #a78bfa;
+        stroke-opacity: .24;
+        stroke-width: 1;
+      }
+
+      .stack-float {
+        animation: stack-float 4s ease-in-out infinite;
+      }
+
+      .stack-pulse {
+        animation: stack-pulse 2.5s ease-in-out infinite;
+      }
+
+      @keyframes stack-float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-7px); }
+      }
+
+      @keyframes stack-pulse {
+        0%, 100% { opacity: .45; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="620" rx="26" fill="url(#stack-bg)"/>
+  <rect width="1200" height="620" rx="26" fill="url(#stack-grid)"/>
+
+  <ellipse cx="1030" cy="300" rx="270" ry="260"
+           fill="url(#stack-glow)" filter="url(#stack-blur)"/>
+
+  <rect x="16" y="16" width="1168" height="588"
+        rx="20" fill="none"
+        stroke="#a78bfa" stroke-opacity=".23"/>
+
+  <!-- Header -->
+  <text x="60" y="75" class="stack-small">
+    02 / THE TOOLS OF MY TRADE
+  </text>
+
+  <text x="60" y="125" class="stack-heading">
+    My Tech Stack
+  </text>
+
+  <rect x="60" y="145" width="230" height="3"
+        rx="2" fill="url(#stack-accent)"/>
+
+  <text x="60" y="180" class="stack-label">
+    Technologies I'm learning, exploring and building with.
+  </text>
+
+  <!-- Programming card -->
+  <rect x="55" y="220" width="530" height="155"
+        rx="18" class="stack-card"/>
+
+  <circle cx="88" cy="258" r="7" fill="#22d3ee"
+          class="stack-pulse"/>
+
+  <text x="110" y="265" class="stack-category">
+    Programming Languages
+  </text>
+
+  <rect x="80" y="290" width="125" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="142" y="316" text-anchor="middle" class="stack-label">Python</text>
+
+  <rect x="220" y="290" width="105" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="272" y="316" text-anchor="middle" class="stack-label">Java</text>
+
+  <rect x="340" y="290" width="165" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="422" y="316" text-anchor="middle" class="stack-label">JavaScript</text>
+
+  <!-- Web development card -->
+  <rect x="615" y="220" width="530" height="155"
+        rx="18" class="stack-card"/>
+
+  <circle cx="648" cy="258" r="7" fill="#a78bfa"
+          class="stack-pulse"/>
+
+  <text x="670" y="265" class="stack-category">
+    Web Development
+  </text>
+
+  <rect x="640" y="290" width="105" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="692" y="316" text-anchor="middle" class="stack-label">HTML</text>
+
+  <rect x="760" y="290" width="95" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="807" y="316" text-anchor="middle" class="stack-label">CSS</text>
+
+  <rect x="870" y="290" width="105" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="922" y="316" text-anchor="middle" class="stack-label">React</text>
+
+  <rect x="990" y="290" width="130" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="1055" y="316" text-anchor="middle" class="stack-label">TypeScript</text>
+
+  <!-- AI card -->
+  <rect x="55" y="400" width="530" height="145"
+        rx="18" class="stack-card"/>
+
+  <circle cx="88" cy="438" r="7" fill="#f472b6"
+          class="stack-pulse"/>
+
+  <text x="110" y="445" class="stack-category">
+    AI &amp; LLM Development
+  </text>
+
+  <rect x="80" y="470" width="145" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="152" y="496" text-anchor="middle" class="stack-label">LangChain</text>
+
+  <rect x="240" y="470" width="175" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="327" y="496" text-anchor="middle" class="stack-label">LLM Development</text>
+
+  <!-- Database card -->
+  <rect x="615" y="400" width="530" height="145"
+        rx="18" class="stack-card"/>
+
+  <circle cx="648" cy="438" r="7" fill="#22d3ee"
+          class="stack-pulse"/>
+
+  <text x="670" y="445" class="stack-category">
+    Database Technologies
+  </text>
+
+  <rect x="640" y="470" width="115" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="697" y="496" text-anchor="middle" class="stack-label">MySQL</text>
+
+  <rect x="770" y="470" width="160" height="42"
+        rx="10" class="stack-chip"/>
+  <text x="850" y="496" text-anchor="middle" class="stack-label">PostgreSQL</text>
+
+  <!-- Footer -->
+  <text x="60" y="578" class="stack-small">
+    LEARN • BUILD • BREAK • DEBUG • REPEAT
+  </text>
+
+  <g class="stack-float">
+    <circle cx="1090" cy="105" r="5" fill="#22d3ee"/>
+    <circle cx="1115" cy="130" r="3" fill="#f472b6"/>
+  </g>
+
+</svg>

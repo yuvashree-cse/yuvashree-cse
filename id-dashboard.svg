@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="650"
+     viewBox="0 0 1200 650"
+     role="img"
+     aria-labelledby="id-title id-desc">
+
+  <title id="id-title">Yuvashree's Developer Identity Dashboard</title>
+  <desc id="id-desc">
+    Developer profile, academic background, current learning mission,
+    coding journey and creative interests.
+  </desc>
+
+  <defs>
+    <linearGradient id="id-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080b16"/>
+      <stop offset="55%" stop-color="#11152a"/>
+      <stop offset="100%" stop-color="#1b1030"/>
+    </linearGradient>
+
+    <linearGradient id="id-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="id-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".025"/>
+    </linearGradient>
+
+    <radialGradient id="id-glow">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity=".27"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="id-grid" width="32" height="32"
+             patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32"
+            fill="none"
+            stroke="#a78bfa"
+            stroke-opacity=".075"/>
+    </pattern>
+
+    <filter id="id-blur">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+
+    <style>
+      @font-face {
+        font-family: "Space Grotesk";
+        src: url("data:font/woff2;base64,__SPACE_REGULAR__") format("woff2");
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: "Space Grotesk";
+        src: url("data:font/woff2;base64,__SPACE_BOLD__") format("woff2");
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("data:font/woff2;base64,__MONO_REGULAR__") format("woff2");
+        font-weight: 400;
+      }
+
+      .id-heading {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+        fill: #f1f2ff;
+      }
+
+      .id-title {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        fill: #e9eaff;
+      }
+
+      .id-body {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 16px;
+        fill: #c0c8e5;
+      }
+
+      .id-small {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        fill: #9da8cd;
+        letter-spacing: 1px;
+      }
+
+      .id-card {
+        fill: url(#id-card);
+        stroke: #a78bfa;
+        stroke-opacity: .25;
+        stroke-width: 1;
+      }
+
+      .id-float {
+        animation: id-float 4s ease-in-out infinite;
+      }
+
+      .id-pulse {
+        animation: id-pulse 2.5s ease-in-out infinite;
+      }
+
+      .id-scan {
+        animation: id-scan 5s ease-in-out infinite;
+      }
+
+      @keyframes id-float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-7px); }
+      }
+
+      @keyframes id-pulse {
+        0%, 100% { opacity: .4; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes id-scan {
+        0% { transform: translateY(0); opacity: .15; }
+        50% { transform: translateY(280px); opacity: .65; }
+        100% { transform: translateY(0); opacity: .15; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="650" rx="26" fill="url(#id-bg)"/>
+  <rect width="1200" height="650" rx="26" fill="url(#id-grid)"/>
+
+  <ellipse cx="1000" cy="300" rx="280" ry="280"
+           fill="url(#id-glow)" filter="url(#id-blur)"/>
+
+  <rect x="16" y="16" width="1168" height="618"
+        rx="20" fill="none"
+        stroke="#a78bfa" stroke-opacity=".24"/>
+
+  <!-- Header -->
+  <text x="55" y="65" class="id-small">
+    SYSTEM / DEVELOPER IDENTITY
+  </text>
+
+  <text x="55" y="112" class="id-heading">
+    Developer Dashboard
+  </text>
+
+  <rect x="55" y="130" width="245" height="3"
+        rx="2" fill="url(#id-accent)"/>
+
+  <text x="1140" y="65" text-anchor="end" class="id-small">
+    PROFILE_001
+  </text>
+
+  <circle cx="1120" cy="100" r="5"
+          fill="#22d3ee" class="id-pulse"/>
+
+  <text x="1140" y="105" text-anchor="end" class="id-small">
+    ACTIVE PROFILE
+  </text>
+
+  <!-- Developer identity -->
+  <rect x="55" y="165" width="1090" height="120"
+        rx="18" class="id-card"/>
+
+  <circle cx="110" cy="225" r="32"
+          fill="#22d3ee" fill-opacity=".12"
+          stroke="#22d3ee" stroke-opacity=".65"/>
+
+  <text x="110" y="234" text-anchor="middle"
+        font-family="Space Grotesk"
+        font-size="27" font-weight="700"
+        fill="#22d3ee">Y</text>
+
+  <text x="165" y="210" class="id-title">
+    Yuvashree C
+  </text>
+
+  <text x="165" y="240" class="id-body">
+    Computer Science &amp; Engineering Student
+  </text>
+
+  <text x="165" y="265" class="id-small">
+    @yuvashree-cse  /  CHENNAI, INDIA
+  </text>
+
+  <rect x="900" y="205" width="200" height="42"
+        rx="11" fill="#22d3ee" fill-opacity=".09"
+        stroke="#22d3ee" stroke-opacity=".45"/>
+
+  <text x="1000" y="231" text-anchor="middle"
+        class="id-small" fill="#22d3ee">
+    DEVELOPER IN PROGRESS
+  </text>
+
+  <!-- Academic panel -->
+  <rect x="55" y="310" width="340" height="145"
+        rx="17" class="id-card"/>
+
+  <text x="80" y="347" class="id-small">
+    01 / ACADEMIC ID
+  </text>
+
+  <text x="80" y="387" class="id-title">
+    B.E. Computer Science
+  </text>
+
+  <text x="80" y="417" class="id-body">
+    St. Joseph's College
+  </text>
+
+  <text x="80" y="439" class="id-body">
+    of Engineering
+  </text>
+
+  <!-- Mission panel -->
+  <rect x="430" y="310" width="340" height="145"
+        rx="17" class="id-card"/>
+
+  <text x="455" y="347" class="id-small">
+    02 / CURRENT MISSION
+  </text>
+
+  <text x="455" y="387" class="id-title">
+    Learn. Build. Improve.
+  </text>
+
+  <text x="455" y="417" class="id-body">
+    Artificial Intelligence
+  </text>
+
+  <text x="455" y="439" class="id-body">
+    LLMs &amp; Full-Stack Development
+  </text>
+
+  <!-- Coding panel -->
+  <rect x="805" y="310" width="340" height="145"
+        rx="17" class="id-card"/>
+
+  <text x="830" y="347" class="id-small">
+    03 / CODING JOURNEY
+  </text>
+
+  <text x="830" y="387" class="id-title">
+    100 Days of LeetCode
+  </text>
+
+  <text x="830" y="417" class="id-body">
+    Daily problem-solving journey
+  </text>
+
+  <text x="830" y="439" class="id-small">
+    STATUS / IN PROGRESS
+  </text>
+
+  <!-- Creative identity -->
+  <rect x="55" y="480" width="700" height="110"
+        rx="17" class="id-card"/>
+
+  <text x="80" y="518" class="id-small">
+    04 / BEYOND THE SCREEN
+  </text>
+
+  <text x="80" y="557" class="id-title">
+    Creative Side
+  </text>
+
+  <text x="300" y="557" class="id-body">
+    Drawing  /  Paper Craft  /  Gaming  /  Travel
+  </text>
+
+  <!-- Terminal panel -->
+  <rect x="790" y="480" width="355" height="110"
+        rx="17" class="id-card"/>
+
+  <circle cx="820" cy="507" r="4" fill="#f472b6"/>
+  <circle cx="838" cy="507" r="4" fill="#a78bfa"/>
+  <circle cx="856" cy="507" r="4" fill="#22d3ee"/>
+
+  <text x="815" y="545" class="id-small">
+    $ keep_building --no-shortcuts
+  </text>
+
+  <text x="815" y="568" class="id-small">
+    <tspan fill="#22d3ee">SUCCESS</tspan>
+    <tspan> / NEXT_LEVEL_LOADING...</tspan>
+  </text>
+
+  <!-- Decorative scan line -->
+  <rect x="55" y="165" width="1090" height="2"
+        rx="1" fill="url(#id-accent)"
+        class="id-scan"/>
+
+  <!-- Footer -->
+  <text x="55" y="615" class="id-small">
+    IDENTIFY • LEARN • CREATE • EVOLVE
+  </text>
+
+  <g class="id-float">
+    <circle cx="1080" cy="145" r="4" fill="#22d3ee"/>
+    <circle cx="1100" cy="165" r="2" fill="#f472b6"/>
+  </g>
+
+</svg>

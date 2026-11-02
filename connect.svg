@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="570" viewBox="0 0 1200 570"
+     role="img" aria-labelledby="title desc">
+
+  <title id="title">Connect with Yuvashree</title>
+  <desc id="desc">Portfolio, GitHub, LinkedIn, email and location.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101326"/>
+      <stop offset="55%" stop-color="#17152c"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="52%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".105"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity=".025"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .heading {
+        font-family: 'Space Grotesk', Arial, sans-serif;
+        font-size: 43px;
+        font-weight: 700;
+        fill: #f8fafc;
+      }
+      .subtitle {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 15px;
+        fill: #aab2cc;
+        letter-spacing: 1px;
+      }
+      .card-title {
+        font-family: 'Space Grotesk', Arial, sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        fill: #f8fafc;
+      }
+      .card-detail {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        fill: #aab2cc;
+      }
+      .symbol {
+        font-family: Arial, sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        fill: #ffffff;
+      }
+      .footer {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        fill: #7f89a8;
+        letter-spacing: 1px;
+      }
+      .card {
+        fill: url(#card);
+        stroke: #a78bfa;
+        stroke-opacity: .28;
+        stroke-width: 1.2;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="570" rx="28" fill="url(#bg)"/>
+
+  <circle cx="1050" cy="80" r="110" fill="#a78bfa" opacity=".07"/>
+  <circle cx="130" cy="450" r="145" fill="#22d3ee" opacity=".055"/>
+  <circle cx="1070" cy="470" r="100" fill="#f472b6" opacity=".045"/>
+
+  <!-- Decorative top line -->
+  <rect x="60" y="35" width="1080" height="3" rx="2"
+        fill="url(#accent)" opacity=".9"/>
+
+  <!-- Heading -->
+  <text x="600" y="112" text-anchor="middle" class="heading">
+    Let's Connect
+  </text>
+
+  <text x="600" y="151" text-anchor="middle" class="subtitle">
+    HAVE AN IDEA, OPPORTUNITY OR JUST WANT TO SAY HI?
+  </text>
+
+  <rect x="515" y="177" width="170" height="3" rx="2"
+        fill="url(#accent)" filter="url(#glow)"/>
+
+  <!-- Card 1: Portfolio -->
+  <g transform="translate(60 220)">
+    <rect width="340" height="105" rx="17" class="card"/>
+    <rect x="0" y="0" width="4" height="105" rx="2" fill="#22d3ee"/>
+    <circle cx="55" cy="52" r="25" fill="#22d3ee" opacity=".16"/>
+    <text x="55" y="62" text-anchor="middle" class="symbol">✦</text>
+    <text x="100" y="43" class="card-title">Portfolio</text>
+    <text x="100" y="68" class="card-detail">3D Interactive Portfolio</text>
+    <text x="100" y="87" class="card-detail" fill="#22d3ee">EXPLORE MY WORK ↗</text>
+  </g>
+
+  <!-- Card 2: GitHub -->
+  <g transform="translate(430 220)">
+    <rect width="340" height="105" rx="17" class="card"/>
+    <rect x="0" y="0" width="4" height="105" rx="2" fill="#a78bfa"/>
+    <circle cx="55" cy="52" r="25" fill="#a78bfa" opacity=".16"/>
+    <text x="55" y="62" text-anchor="middle" class="symbol">⌘</text>
+    <text x="100" y="43" class="card-title">GitHub</text>
+    <text x="100" y="68" class="card-detail">@yuvashree-cse</text>
+    <text x="100" y="87" class="card-detail">CODE • BUILD • CREATE</text>
+  </g>
+
+  <!-- Card 3: LinkedIn -->
+  <g transform="translate(800 220)">
+    <rect width="340" height="105" rx="17" class="card"/>
+    <rect x="0" y="0" width="4" height="105" rx="2" fill="#f472b6"/>
+    <circle cx="55" cy="52" r="25" fill="#f472b6" opacity=".16"/>
+    <text x="55" y="62" text-anchor="middle" class="symbol">in</text>
+    <text x="100" y="43" class="card-title">LinkedIn</text>
+    <text x="100" y="68" class="card-detail">/in/yuvashree-cse</text>
+    <text x="100" y="87" class="card-detail">LET'S NETWORK ↗</text>
+  </g>
+
+  <!-- Card 4: Email -->
+  <g transform="translate(245 355)">
+    <rect width="340" height="105" rx="17" class="card"/>
+    <rect x="0" y="0" width="4" height="105" rx="2" fill="#22d3ee"/>
+    <circle cx="55" cy="52" r="25" fill="#22d3ee" opacity=".16"/>
+    <text x="55" y="62" text-anchor="middle" class="symbol">✉</text>
+    <text x="100" y="43" class="card-title">Email</text>
+    <text x="100" y="68" class="card-detail">Open to conversations</text>
+    <text x="100" y="87" class="card-detail">SAY HELLO ↗</text>
+  </g>
+
+  <!-- Card 5: Location -->
+  <g transform="translate(615 355)">
+    <rect width="340" height="105" rx="17" class="card"/>
+    <rect x="0" y="0" width="4" height="105" rx="2" fill="#a78bfa"/>
+    <circle cx="55" cy="52" r="25" fill="#a78bfa" opacity=".16"/>
+    <text x="55" y="62" text-anchor="middle" class="symbol">⌖</text>
+    <text x="100" y="43" class="card-title">Location</text>
+    <text x="100" y="68" class="card-detail">Chennai, India</text>
+    <text x="100" y="87" class="card-detail">BUILDING FROM HERE 🌏</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="520" text-anchor="middle" class="footer">
+    MADE WITH CURIOSITY • CODE • COFFEE
+  </text>
+
+  <rect x="60" y="540" width="1080" height="2" rx="1"
+        fill="url(#accent)" opacity=".45"/>
+
+</svg>

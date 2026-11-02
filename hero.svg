@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200"
+     height="420"
+     viewBox="0 0 1200 420"
+     role="img"
+     aria-labelledby="hero-title hero-desc">
+
+  <title id="hero-title">Yuvashree C | Developer Profile</title>
+  <desc id="hero-desc">
+    Computer Science student and developer from Chennai.
+  </desc>
+
+  <defs>
+    <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080b16"/>
+      <stop offset="55%" stop-color="#11152a"/>
+      <stop offset="100%" stop-color="#1b1030"/>
+    </linearGradient>
+
+    <linearGradient id="hero-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <radialGradient id="hero-glow">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="hero-grid" width="32" height="32"
+             patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32"
+            fill="none"
+            stroke="#a78bfa"
+            stroke-opacity=".09"
+            stroke-width="1"/>
+    </pattern>
+
+    <filter id="hero-blur">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+
+    <style>
+      @font-face {
+        font-family: "Space Grotesk";
+        src: url("data:font/woff2;base64,__SPACE_REGULAR__")
+             format("woff2");
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: "Space Grotesk";
+        src: url("data:font/woff2;base64,__SPACE_BOLD__")
+             format("woff2");
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("data:font/woff2;base64,__MONO_REGULAR__")
+             format("woff2");
+        font-weight: 400;
+      }
+
+      .hero-name {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 65px;
+        font-weight: 700;
+        letter-spacing: -2px;
+      }
+
+      .hero-subtitle {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 23px;
+        fill: #d8dcf5;
+      }
+
+      .hero-small {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 13px;
+        fill: #aab2d5;
+        letter-spacing: 1px;
+      }
+
+      .hero-dot {
+        animation: hero-pulse 2.4s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+
+      .hero-float {
+        animation: hero-float 4s ease-in-out infinite;
+      }
+
+      .hero-glow {
+        animation: hero-glow 5s ease-in-out infinite alternate;
+      }
+
+      @keyframes hero-pulse {
+        0%, 100% { opacity: .45; transform: scale(.85); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+
+      @keyframes hero-float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-9px); }
+      }
+
+      @keyframes hero-glow {
+        from { opacity: .45; }
+        to { opacity: .9; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" rx="26" fill="url(#hero-bg)"/>
+  <rect width="1200" height="420" rx="26" fill="url(#hero-grid)"/>
+
+  <!-- Ambient glow -->
+  <ellipse cx="950" cy="205" rx="290" ry="230"
+           fill="url(#hero-glow)"
+           filter="url(#hero-blur)"
+           class="hero-glow"/>
+
+  <ellipse cx="90" cy="40" rx="180" ry="120"
+           fill="#22d3ee" opacity=".07"
+           filter="url(#hero-blur)"/>
+
+  <!-- Decorative frame -->
+  <rect x="16" y="16" width="1168" height="388"
+        rx="20" fill="none"
+        stroke="#a78bfa" stroke-opacity=".23"/>
+
+  <!-- Status -->
+  <circle cx="76" cy="77" r="5" fill="#22d3ee"
+          class="hero-dot"/>
+
+  <text x="94" y="82" class="hero-small">
+    AVAILABLE FOR LEARNING &amp; BUILDING
+  </text>
+
+  <!-- Main introduction -->
+  <text x="72" y="190" class="hero-name"
+        fill="url(#hero-text)">
+    Yuvashree C
+  </text>
+
+  <text x="76" y="235" class="hero-subtitle">
+    Computer Science &amp; Engineering Student
+  </text>
+
+  <text x="76" y="270" class="hero-small">
+    PRE-FINAL YEAR  /  CHENNAI, INDIA
+  </text>
+
+  <!-- Divider -->
+  <rect x="76" y="300" width="360" height="2"
+        rx="1" fill="url(#hero-text)" opacity=".8"/>
+
+  <text x="76" y="340" class="hero-small">
+    EXPLORING CODE • AI • CREATIVE TECHNOLOGY
+  </text>
+
+  <!-- Floating decorative elements -->
+  <g class="hero-float">
+    <circle cx="720" cy="105" r="4" fill="#22d3ee"/>
+    <circle cx="745" cy="135" r="2" fill="#f472b6"/>
+  </g>
+
+  <g class="hero-float" style="animation-delay:-2s">
+    <circle cx="1080" cy="100" r="5" fill="#a78bfa"/>
+    <circle cx="1110" cy="130" r="2" fill="#22d3ee"/>
+  </g>
+
+  <path d="M690 350 Q750 300 810 350"
+        fill="none" stroke="#22d3ee"
+        stroke-opacity=".35" stroke-width="1.5"/>
+
+  <!-- Character image placeholder -->
+  <image x="755" y="10"
+         width="420" height="400"
+         preserveAspectRatio="xMidYMid meet"
+         href="__WAVING_IMAGE__"
+         xlink:href="__WAVING_IMAGE__"/>
+
+</svg>
