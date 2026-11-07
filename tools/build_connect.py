@@ -12,7 +12,6 @@ FONTS = {
     "__MONO_REGULAR__": ROOT / "assets/fonts/JetBrainsMono-Regular.woff2",
 }
 
-
 def encode_file(path):
     return base64.b64encode(path.read_bytes()).decode("ascii")
 
